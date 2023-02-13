@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-f@ikdtf7g5*2)j6ejfko%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.eviron.get('HEROKU_HOASTNAME')]
+ALLOWED_HOSTS = [os.environ.get('HEROKU_HOASTNAME')]
 
 
 # Application definition
